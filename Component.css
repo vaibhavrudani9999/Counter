@@ -1,0 +1,96 @@
+/* ---------- RESET ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- BODY ---------- */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #fff4f1;   /* warm background */
+    padding: 40px;
+}
+
+/* ---------- CONTAINER ---------- */
+.container {
+    max-width: 620px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(240, 98, 146, 0.25);
+}
+
+/* ---------- TITLE ---------- */
+.title {
+    text-align: center;
+    margin-bottom: 22px;
+    font-size: 26px;
+    color: #37474f;
+}
+
+/* ---------- CARD ---------- */
+.card {
+    margin-top: 18px;
+    padding: 20px;
+    background-color: #fffafa;
+    border-radius: 10px;
+    border-left: 6px solid #ff6f61; /* coral */
+}
+
+/* ---------- INPUT ---------- */
+.inp {
+    width: 65%;
+    padding: 11px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #d7ccc8;
+    outline: none;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+.inp:focus {
+    border-color: #009688; /* teal */
+    box-shadow: 0 0 0 3px rgba(0, 150, 136, 0.25);
+}
+
+/* ---------- BUTTON ---------- */
+.btn {
+    padding: 11px 22px;
+    margin-top: 15px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #009688; /* teal */
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #00695c;
+    transform: translateY(-2px);
+}
+
+/* ---------- TEXT ---------- */
+.text {
+    margin-top: 12px;
+    font-size: 17px;
+    color: #5d4037;
+}
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 600px) {
+    .inp {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-right: 0;
+    }
+}
